@@ -1,0 +1,28 @@
+Nume proiect: Althea (E Commerce Website - Magazin de rochii și accesorii pentru mirese)
+
+Nume si prenume coechipieri: Martinovici Iasmina-Patricia și Maricuțu Miriana-Dana
+
+Legenda ideii: In zilele de astazi, magazinele online au beneficiat de o mare atentie din partea cumparatorilor. 
+Perioada pandemiei a fost si aceasta un imbold, asadar, noi am decis sa facem un magazin online. 
+Tema magazinului a fost mai dificila, am avut nenumarate idei, de la florarie, biciclete pana la magazin de pescuit. 
+Tot venind cu idei, am deviat de la subiect si am ajuns sa discutam despre colegele noastre care s-au logodit. 
+De aici a aparut ideea: magazin cu produse pentru mirese
+
+Rolul : Aceast site are rolul de a oferi utilizatorilor un magazin bazat pe eficientizarea căutarii și cumpărarii
+rochiilor de mirese și a accesoriilor acestora prin intermediul afișării acestora si oferirea detaliilor lor 
+în parte.
+
+Prezentarea paginilor
+- Home page-ul: e cel în care utilizatorii văd toate produsele. Conținue posibilitatea de a fi redirecționați către 
+cosul de cumparaturi. Utilizatorii pot naviga în pagină pentru a privi produsele și a își alege dintre ele ce își doresc. 
+În urma deciziei, aceștia pot adăuga produsul/produsele în coș apăsând butonul „Adaugă în coș”(această acțiune e valabilă 
+cât timp produsul e în stoc). Pe lângă acest buton, utilizatorilor le sunt furnizate și detalii în legatură cu prețul
+produselor.
+- Pagian de produs: contine strict produsul selectat. În interiorul acestei pagini, utilizatorului îi este 
+furnizat titlul produsului, o poză cu acesta, pretul, descrierea, statusul dar și posibilitatea de a-l adăuga în coș
+(daca este în stoc).
+- Pagina coșului de cumpărături: aceasta conține toate produsele adăugate în coș și prezintă posibilitatea ca utilizatorul 
+să poată incrementa sau decrementa numarul de produse selectat din respectivele categorii(atata timp cât mai sunt produse 
+din acelea în stoc).
+- Pagina de căutare si pagina categoriilor: contine selecția produselor căutate și le poate afișa chiar pe 
+toate, cu posibilitatea de a fi sortate pe parcurs în funcție de anumite criterii
