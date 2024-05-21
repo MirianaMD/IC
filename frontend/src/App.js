@@ -93,7 +93,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All rights reserved</div>
+          <div className="text-center">All rights reserved!</div>
         </footer>
       </div>
     </BrowserRouter>

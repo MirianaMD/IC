@@ -17,7 +17,7 @@ const data = {
   ],
   products: [
     {
-      //_id: '1',
+      //_id: '1'
       name: 'Ambrose',
       slug: 'Ambrose',
       category: 'Dresses',
