@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'Miriana',
+      email: 'miri.md@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'Aaron',
+      email: 'aaron.w@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
+      //_id: '1',
       name: 'Ambrose',
       slug: 'Ambrose',
       category: 'Dresses',
@@ -15,7 +31,7 @@ const data = {
         'Ballgown Asymmetrical Wedding Dress Lined With Fabric Made Of Recycled Materials',
     },
     {
-      _id: '2',
+      //_id: '2',
       name: 'Felicia Leigh',
       slug: 'Felicia',
       category: 'Dresses',
@@ -29,7 +45,7 @@ const data = {
         'Lace And Crepe Comfortable Modest Bridal Gown With Illusion Lace Sleeves And A Scoop Neck',
     },
     {
-      _id: '3',
+      //_id: '3',
       name: 'Pilar Leigh',
       slug: 'Pilar',
       category: 'Dresses',
@@ -43,7 +59,7 @@ const data = {
         'Crepe And Lace Bohemian Puff Sleeve Modest Wedding Gown With A Chic Square Back',
     },
     {
-      _id: '4',
+      //_id: '4',
       name: 'Ruby',
       slug: 'Ruby',
       category: 'Veil',

@@ -13,6 +13,10 @@ export const generateToken = (user) => {
     }
   );
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf
 export const isAuth = (req, res, next) => {
   const authorization = req.headers.authorization;
   if (authorization) {
@@ -29,6 +33,7 @@ export const isAuth = (req, res, next) => {
     res.status(401).send({ message: 'No Token' });
   }
 };
+<<<<<<< HEAD
 
 export const isAdmin = (req, res, next) => {
   if (req.user && req.user.isAdmin) {
@@ -37,3 +42,5 @@ export const isAdmin = (req, res, next) => {
     res.status(401).send({ message: 'Invalid Admin Token' });
   }
 };
+=======
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf

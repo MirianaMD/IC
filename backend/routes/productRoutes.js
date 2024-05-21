@@ -1,12 +1,20 @@
 import express from 'express';
+<<<<<<< HEAD
 import expressAsyncHandler from 'express-async-handler';
 import Product from '../models/productModel.js';
 import { isAuth, isAdmin } from '../utils.js';
 const productRouter = express.Router();
+=======
+import Product from '../models/productModel.js';
+
+const productRouter = express.Router();
+
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf
 productRouter.get('/', async (req, res) => {
   const products = await Product.find();
   res.send(products);
 });
+<<<<<<< HEAD
 productRouter.post(
   '/',
   isAuth,
@@ -170,6 +178,9 @@ productRouter.get(
     res.send(categories);
   })
 );
+=======
+
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf
 productRouter.get('/slug/:slug', async (req, res) => {
   const product = await Product.findOne({ slug: req.params.slug });
   if (product) {
@@ -186,4 +197,9 @@ productRouter.get('/:id', async (req, res) => {
     res.status(404).send({ message: 'Product Not Found' });
   }
 });
+<<<<<<< HEAD
 export default productRouter;
+=======
+
+export default productRouter;
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf

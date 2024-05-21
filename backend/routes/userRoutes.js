@@ -2,6 +2,7 @@ import express from 'express';
 import bcrypt from 'bcryptjs';
 import expressAsyncHandler from 'express-async-handler';
 import User from '../models/userModel.js';
+<<<<<<< HEAD
 import { isAuth, isAdmin, generateToken } from '../utils.js';
 
 const userRouter = express.Router();
@@ -66,6 +67,10 @@ userRouter.delete(
     }
   })
 );
+=======
+import { generateToken } from '../utils.js';
+const userRouter = express.Router();
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf
 userRouter.post(
   '/signin',
   expressAsyncHandler(async (req, res) => {
@@ -85,6 +90,10 @@ userRouter.post(
     res.status(401).send({ message: 'Invalid email or password' });
   })
 );
+<<<<<<< HEAD
+=======
+
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf
 userRouter.post(
   '/signup',
   expressAsyncHandler(async (req, res) => {
@@ -104,6 +113,7 @@ userRouter.post(
   })
 );
 
+<<<<<<< HEAD
 userRouter.put(
   '/profile',
   isAuth,
@@ -131,3 +141,6 @@ userRouter.put(
 );
 
 export default userRouter;
+=======
+export default userRouter;
+>>>>>>> 69135bc6b91a277da452164e7263be111739c7cf
